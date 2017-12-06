@@ -1,0 +1,124 @@
+body{
+
+}
+
+.wrap {
+	max-width: 1200px;
+	margin: 0 auto;
+	background: #ccc;
+	height: 100vh;
+}
+
+.btn {
+	font-family: Arial;
+	display: inline-block;
+	min-width: 200px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 400;
+	background: #778899;
+	color: #ccc;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #778899;
+	margin: 15px 37px;
+	transition: background, color, .3s;
+	box-shadow: 7px 7px 10px -2px rgba(0,0,0,0.21);
+}
+
+.btn:hover {
+	background: transparent;
+	color: #778899;
+}
+
+.row-box {
+	/*width: 90%;
+	border: 1px solid #778899;
+	margin: 0 auto;
+	border-radius: 15px;*/
+}
+
+.row-box-item {
+	margin: 15px auto;
+	border-radius: 5px;
+	width: 90%;
+	height: 100px;
+	background: #fff;
+	box-shadow: 7px 7px 10px -2px rgba(0,0,0,0.21);
+	transition: background, .3s;
+}
+
+.rem-btn {
+	position: relative;
+	display: inline-block;
+	margin-left: 97%;
+	margin-top: 5.5%;
+	text-decoration: none;
+	color: #778899;
+}
+
+
+.add-row {
+
+}
+
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+	border: 5px solid white;
+}
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
